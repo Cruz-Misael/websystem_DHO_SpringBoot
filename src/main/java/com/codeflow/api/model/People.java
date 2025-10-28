@@ -32,15 +32,16 @@ public class People {
     private String external_link;
     private String mindsigth_link;
     private String cis_link;
-    private Integer id_opportunity;
-    private Integer id_position;
-    private Integer id_team;
-    private Integer id_departament;
-    private Integer id_base_origin;
-    private Integer id_demission_type;
-    private Integer id_demissal_motivation;
-    private Integer id_education;
-    private Integer id_recruitment_source;
-    private Integer id_process_stage;
-    private Integer id_process_status;
+    private String id_opportunity;
+    private String id_position;
+    private String id_team;
+    private String id_departament;
+    private String id_base_origin;
+    private String id_demission_type;
+    private String id_demissal_motivation;
+    private String id_education;
+    private String id_recruitment_source;
+    private String id_process_stage;
+    private String id_process_status;
+    private String id_situation;
 }

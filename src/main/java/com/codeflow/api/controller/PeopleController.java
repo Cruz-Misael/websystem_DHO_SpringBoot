@@ -81,6 +81,7 @@ public class PeopleController {
                     user.setId_recruitment_source(updatedUser.getId_recruitment_source());
                     user.setId_process_stage(updatedUser.getId_process_stage());
                     user.setId_process_status(updatedUser.getId_process_status());
+                    user.setId_situation(updatedUser.getId_situation());
                     return repo.save(user);
                 })
                 .orElseThrow(() -> new RuntimeException("Usuário não encontrado com ID: " + id));
